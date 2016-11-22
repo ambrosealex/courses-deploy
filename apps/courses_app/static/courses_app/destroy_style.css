@@ -1,0 +1,36 @@
+*{
+    border: 0;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+#wrapper{
+    width: 970px;
+    padding: 10px;
+}
+button{
+    margin-top: 20px;
+}
+#yes{
+    background-color: rgb(195, 7, 7);
+    color: white;
+    border: 3px solid black;
+    padding: 10px;
+}
+#no{
+    padding: 10px;
+    border: 3px solid black;
+    margin-right: 10px;
+}
+p{
+    display: inline-block;
+    text-align: right;
+}
+#wrapper h5{
+    display: inline-block;
+    font-size: 12pt;
+    margin-right: 20px;
+}
+h1{
+    margin: 20px 0;
+}

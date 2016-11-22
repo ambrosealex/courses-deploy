@@ -1,0 +1,53 @@
+*{
+    border: 0;
+    margin: 0 auto;
+    padding: 0;
+}
+#wrapper{
+    width: 1000px;
+    padding: 10px;
+    background-repeat: 5px solid yellow;
+}
+.add_form h5{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+}
+#formName{
+    vertical-align: top;
+    border: 2px solid black;
+    display: inline-block;
+    width: 258px;
+    padding: 5px 20px;
+    margin-right: 570px;
+    margin-left: 33px;
+    margin-bottom: 10px;
+}
+#area{
+    display: inline-block;
+    border: 2px solid black;
+    padding: 10px;
+}
+#course_table{
+    border: 3px solid black;
+    width: 900px;
+    text-align: center;
+}
+#course_table th{
+    background-color: rgba(75, 76, 77, 0.41);
+}
+#course_table tr:nth-child(even){
+    background-color: rgba(173, 172, 177,.4);
+}
+#subBtn{
+    background-color: green;
+    color: white;
+    height: 30px;
+    width: 40px;
+    border: 2px solid black;
+    display: block;
+    margin-left: 352px;
+}
+h2 {
+    margin-bottom: 10px;
+}
