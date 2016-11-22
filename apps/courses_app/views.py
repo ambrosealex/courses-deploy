@@ -7,7 +7,7 @@ def index(request):
     context = {
         'courses' : courses
     }
-    return render(request, 'courses_app\index.html', context)
+    return render(request, 'courses_app/index.html', context)
 
 def add(request):
     models.Courses.objects.create(name = request.POST['name'], description = request.POST['descript'])
@@ -18,7 +18,7 @@ def destroy(request,id):
     context = {
         'course' : course
     }
-    return render(request, 'courses_app\destroy.html', context)
+    return render(request, 'courses_app/destroy.html', context)
 
 def process(request, id):
     models.Courses.objects.filter(id=id).delete()
